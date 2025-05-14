@@ -29,25 +29,5 @@ public class F1 extends Car {
 
             changeSpeed(newSpeed, getCurrentDirection());
         }
-    }
-
-	@Override
-	public int getCurrentGear() {
-		// TODO Auto-generated method stub
-		return super.getCurrentGear();
-	}
-
-	@Override
-	public boolean isManual() {
-		// TODO Auto-generated method stub
-		return super.isManual();
-	}
-
-	@Override
-	public String getName() {
-		// TODO Auto-generated method stub
-		return super.getName();
-	}
-    
-    
+    }    
 }
