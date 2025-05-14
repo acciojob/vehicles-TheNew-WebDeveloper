@@ -15,7 +15,6 @@ public class Boat implements WaterVehicle{
 
     public static void main (String[] args) {
         Boat boat = new Boat();
-
         System.out.println(boat.getVehicleName());
         System.out.println(boat.getVehicleCapacity());
     }
